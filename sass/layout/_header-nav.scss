@@ -1,0 +1,40 @@
+.navigation {
+  margin-left: 93px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  position: relative;
+}
+.nav-link {
+  color: var(--text-primary);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  transition: color 250ms linear;
+
+  display: block;
+  padding: 32px 0;
+  &:hover,
+  &:focus,
+  &.current {
+    color: var(--accent);
+  }
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-link.current::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: var(--accent);
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+}

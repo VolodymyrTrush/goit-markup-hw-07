@@ -1,0 +1,33 @@
+.features {
+  padding-top: 94px;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-item {
+  width: 270px;
+}
+
+.feature-item-block {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  background-color: var(--background-section);
+
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.item-title {
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+
+  margin-bottom: 10px;
+}
+.item-discription {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.7;
+}

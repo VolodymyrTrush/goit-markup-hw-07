@@ -1,0 +1,25 @@
+.doing-img {
+  display: flex;
+  justify-content: space-between;
+}
+.doing-img-item {
+  position: relative;
+}
+.doing-block {
+  display: flex;
+  justify-content: center;
+  padding: 27px 0;
+  background-color: var(--background-doing);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.doing-title {
+  color: var(--background-primary);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
