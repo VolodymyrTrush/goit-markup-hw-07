@@ -2,11 +2,11 @@
   margin-left: auto;
   padding-top: 12px;
 }
-.footer-form-item {
+.footer-form__item {
   display: flex;
   justify-content: space-between;
 }
-.footer-form-email {
+.footer-form__email {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.25;
@@ -23,7 +23,4 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-}
-.footer-form-icon {
-  margin-left: 10px;
 }

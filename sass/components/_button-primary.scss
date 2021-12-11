@@ -1,4 +1,4 @@
-.primary-button {
+.button-primary {
   color: var(--background-primary);
   background-color: var(--accent);
   font-family: inherit;
@@ -17,4 +17,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+.primary-button__icon {
+  margin-left: 10px;
 }

@@ -1,12 +1,12 @@
-.logo-items {
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
-.logo-web {
+.logo__item {
   color: var(--accent);
 }
-.logo-studio-header {
+.logo__item--dark {
   color: var(--logo-primary);
 }
