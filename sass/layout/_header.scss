@@ -1,14 +1,14 @@
 .header-section {
   border-bottom: 1px solid var(--border-color);
 }
-.header-items {
+.header-section__items {
   display: flex;
   align-items: center;
 }
 .nav {
   margin-left: 93px;
 }
-.header-contact {
+.header-section__contact {
   display: flex;
   margin-left: auto;
 }

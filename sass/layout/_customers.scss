@@ -1,10 +1,10 @@
-.customers__list {
+.customers-list {
   display: flex;
 }
-.customers__item:not(:last-child) {
+.customers-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.customers__link {
+.customers-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +24,6 @@
   }
 }
 
-.customers__icon {
+.customers-list__icon {
   fill: currentColor;
 }

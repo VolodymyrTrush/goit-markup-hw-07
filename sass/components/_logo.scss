@@ -4,9 +4,12 @@
   font-size: 26px;
   line-height: 1.2;
 }
-.logo__item {
+.logo__web {
   color: var(--accent);
 }
-.logo__item--dark {
+.logo__primary {
   color: var(--logo-primary);
+}
+.logo__secondary {
+  color: var(--background-primary);
 }

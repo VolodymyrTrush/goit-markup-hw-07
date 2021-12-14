@@ -1,6 +1,21 @@
 html {
   box-sizing: border-box;
 }
+body {
+  background-color: var(--background-primary);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+.section {
+  padding: 94px 0;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 *,
 *::before,
 *::after {
@@ -22,7 +37,6 @@ ul {
 }
 button {
   cursor: pointer;
-
   border: 0;
 }
 img {
@@ -35,5 +49,3 @@ a {
   text-decoration: none;
   font-weight: normal;
 }
-
-

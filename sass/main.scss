@@ -1,16 +1,12 @@
-@import './base/reset';
+@import './components/comon';
 @import './utils/variables';
 
-@import './components/body';
-@import './components/section';
-@import './components/container';
-
-@import './components/logo-header';
+@import './components/logo';
 @import './layout/header';
 @import './layout/header-nav';
 @import './layout/header-contacts';
 @import './layout/hero';
-@import './components/button-primary';
+@import './components/buttons';
 @import './layout/features';
 @import './components/titls';
 @import './layout/doing';
@@ -18,23 +14,21 @@
 @import './layout/team-social';
 @import './components/social';
 @import './layout/customers';
-@import './layout/buttons';
-@import './components/button-secondary';
+
+@import './layout/filter';
 @import './layout/portfolio';
 @import './layout/portfolio-overlay';
 
 @import './layout/footer';
-@import './components/logo-footer';
+
 @import './layout/footer-contacts';
 @import './layout/footer-social';
-@import './layout/footer-form';
+@import './layout/subscribe';
 
 @import './layout/backdrop';
 @import './layout/hidden';
 @import './layout/modal';
-@import './layout/modal-button';
 @import './layout/modal-title';
 @import './layout/modal-input';
 @import './layout/modal-textarea';
 @import './layout/modal-checkbox';
-

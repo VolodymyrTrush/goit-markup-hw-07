@@ -1,7 +1,7 @@
-.header-contact__item:not(:last-child) {
+.contact-list__item:not(:last-child) {
   margin-right: 50px;
 }
-.header-contact__link {
+.contact-list__link {
   color: var(--text-secondary);
   font-family: inherit;
   font-style: normal;
@@ -19,7 +19,7 @@
   }
 }
 
-.header-contanct__icon {
+.contact-list__icon {
   margin-right: 10px;
   cursor: pointer;
   fill: currentColor;
