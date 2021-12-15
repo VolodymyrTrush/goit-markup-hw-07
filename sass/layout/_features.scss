@@ -2,16 +2,13 @@
   padding-bottom: 0;
 }
 .features__list {
-  display: flex;
-  justify-content: space-between;
+  @extend %list-content-between;
 }
 .feature__item {
   width: 270px;
 }
-
 .feature__block {
-  display: flex;
-  justify-content: center;
+  @extend %list-content-center;
   padding: 25px 0;
   background-color: var(--background-section);
 
@@ -20,14 +17,14 @@
 }
 .feature__title {
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
+  @include font(700, 14px, 1.15, 0.03em);
 
   margin-bottom: 10px;
 }
 .feature__discription {
   color: var(--text-secondary);
+  @include font(400, 14px, 1.7, 0.03em);
   font-size: 14px;
   line-height: 1.7;
+  
 }

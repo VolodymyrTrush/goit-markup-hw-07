@@ -3,8 +3,7 @@
   padding-top: 12px;
 }
 .subscribe-form {
-  display: flex;
-  justify-content: space-between;
+  @extend %list-content-between;
 }
 .subscribe-form__input {
   font-family: inherit;

@@ -1,13 +1,9 @@
 .customers-list {
-  display: flex;
-}
-.customers-list__item:not(:last-child) {
-  margin-right: 30px;
+  @extend %list-content-between;
 }
 .customers-list__link {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  @extend %list-content-center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--icon-color);
@@ -23,7 +19,6 @@
     color: var(--accent);
   }
 }
-
 .customers-list__icon {
   fill: currentColor;
 }

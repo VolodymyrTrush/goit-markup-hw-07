@@ -1,31 +1,23 @@
 .main-title {
   color: var(--background-primary);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.09em;
+  @include font(900, 44px, 1.4, 0.09em);
+  
   text-transform: uppercase;
-
-  margin-bottom: 30px;
+  @include title-margin(30px);
 }
 .second-title {
   color: var(--text-primary);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+  @include font(700, 36px, 1.2, 0.03em);
+  
   text-align: center;
-
-  margin-bottom: 50px;
+@include title-margin(50px);
 }
 .third-title {
   color: var(--background-primary);
   font-family: inherit;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.14, 0.03em);
+  
   text-transform: uppercase;
-
-  margin-bottom: 20px;
+@include title-margin(20px);
 }

@@ -1,13 +1,11 @@
 .doing-list {
-  display: flex;
-  justify-content: space-between;
+  @extend %list-content-between;
 }
 .doing-list__item {
   position: relative;
 }
 .doing-list__block {
-  display: flex;
-  justify-content: center;
+  @extend %list-content-center;
   padding: 27px 0;
   background-color: var(--background-doing);
   width: 100%;
@@ -18,8 +16,9 @@
 .doing-list__title {
   color: var(--background-primary);
   font-family: inherit;
+  @include font(400, 14px, 1.14, 0.03em);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  
 }

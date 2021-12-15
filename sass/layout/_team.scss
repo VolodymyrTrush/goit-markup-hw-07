@@ -2,8 +2,7 @@
   background-color: var(--background-section);
 }
 .team__list {
-  display: flex;
-  justify-content: space-between;
+  @extend %list-content-between;
 }
 .team__item {
   background-color: var(--background-primary);
@@ -20,6 +19,7 @@
 }
 .team__member--name {
   color: var(--text-primary);
+  @include font(500, 16px, 1.2, 0.03em);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -27,8 +27,8 @@
 }
 .team__member--position {
   color: var(--text-secondary);
-  font-size: 16px;
-  line-height: 1.2;
+  @include font(500, 16px, 1.2, 0.03em);
+  
   text-align: center;
 
   margin-top: 10px;
