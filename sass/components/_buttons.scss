@@ -12,14 +12,19 @@
 
   min-width: 200px;
   height: 50px;
-  align-items: center;
-  @extend %list-content-center;
   margin-left: auto;
   margin-right: auto;
+}
+.button-primary--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .button-primary__icon {
   margin-left: 10px;
 }
+
 .button-secondary {
   color: var(--text-primary);
   background-color: var(--background-section);
@@ -46,6 +51,7 @@
     border-radius: 4px;
   }
 }
+
 .button-close {
   position: absolute;
   top: 8px;

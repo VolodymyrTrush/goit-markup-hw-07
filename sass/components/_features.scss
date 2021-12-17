@@ -1,13 +1,13 @@
 .features {
   padding-bottom: 0;
 }
-.features__list {
+.features-list {
   @extend %list-content-between;
 }
-.feature__item {
+.features-list__item {
   width: 270px;
 }
-.feature__block {
+.features-list__block {
   @extend %list-content-center;
   padding: 25px 0;
   background-color: var(--background-section);
@@ -15,16 +15,15 @@
   margin-bottom: 30px;
   border-radius: 4px;
 }
-.feature__title {
+.features-list__title {
   color: var(--text-primary);
   @include font(700, 14px, 1.15, 0.03em);
 
   margin-bottom: 10px;
 }
-.feature__discription {
+.features-list__discription {
   color: var(--text-secondary);
   @include font(400, 14px, 1.7, 0.03em);
   font-size: 14px;
   line-height: 1.7;
-  
 }

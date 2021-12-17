@@ -5,6 +5,7 @@
   text-transform: uppercase;
   @include title-margin(30px);
 }
+
 .second-title {
   color: var(--text-primary);
   @include font(700, 36px, 1.2, 0.03em);
@@ -12,6 +13,7 @@
   text-align: center;
 @include title-margin(50px);
 }
+
 .third-title {
   color: var(--background-primary);
   font-family: inherit;

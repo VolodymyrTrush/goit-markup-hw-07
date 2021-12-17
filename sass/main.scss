@@ -1,34 +1,29 @@
-@import './components/comon';
+@import './components/common';
 @import './utils/variables';
+@import './components/placeholders';
+@import './components/mixins';
 
 @import './components/logo';
-@import './layout/header';
-@import './layout/header-nav';
-@import './layout/header-contacts';
-@import './layout/hero';
+@import './components/header';
+@import './components/nav';
+@import './components/contacts';
+@import './components/hero';
 @import './components/buttons';
-@import './layout/features';
-@import './components/titls';
-@import './layout/doing';
-@import './layout/team';
-@import './layout/team-social';
+@import './components/features';
+@import './components/titles';
+@import './components/doing';
+@import './components/team';
 @import './components/social';
-@import './layout/customers';
+@import './components/customers';
 
-@import './layout/filter';
-@import './layout/portfolio';
-@import './layout/portfolio-overlay';
+@import './components/filter';
+@import './components/portfolio';
 
-@import './layout/footer';
+@import './components/footer';
+@import './components/subscribe-form';
 
-@import './layout/footer-contacts';
-@import './layout/footer-social';
-@import './layout/subscribe-form';
-
-@import './layout/backdrop';
-@import './layout/hidden';
-@import './layout/modal';
-@import './layout/modal-title';
-@import './layout/modal-input';
-@import './layout/modal-textarea';
-@import './layout/modal-checkbox';
+@import './components/backdrop-and-modal';
+@import './components/labels';
+@import './components/input-field';
+@import './components/textarea-field';
+@import './components/checkbox-field';
