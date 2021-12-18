@@ -1,20 +1,13 @@
-:root {
-  --text-primary: #212121;
-  --text-secondary: #757575;
-  --accent: #2196f3;
-  --logo-primary: #000000;
-  --background-primary: #ffffff;
-  --background-secondary: #2f303a;
-  --background-section: #f5f4fa;
-  --background-doing: rgba(47, 48, 58, 0.8);
-  --background-social-footer: rgba(255, 255, 255, 0.1);
-  --backdrop-color: rgba(0, 0, 0, 0.2);
-  --portfolio-overlay: rgba(33, 150, 243, 0.9);
-  --footer-contacts: rgba(255, 255, 255, 0.6);
-  --border-color: #eeeeee;
-  --icon-color: #afb1b8;
-  --modal-icon-border: rgba(0, 0, 0, 0.1);
-  --modal-input-border: rgba(33, 33, 33, 0.2);
-  --border-form: rgba(255, 255, 255, 0.3);
-  --modal-placeholder-text: rgba(117, 117, 117, 0.5);
-}
+$primary-color: #000000;
+$primary-shade-color: #212121;
+$primary-shade-2color: #757575;
+
+$secondary-color: #ffffff;
+$secondary-shade-color: #f5f4fa;
+$secondary-2color: #2f303a;
+
+$accent-color: #2196f3;
+
+$line-color: #ececec;
+$border-color: #eeeeee;
+$icon-color: #afb1b8;

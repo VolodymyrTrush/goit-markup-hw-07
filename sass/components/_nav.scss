@@ -5,7 +5,7 @@
   position: relative;
 }
 .nav__link {
-  color: var(--text-primary);
+  color: $primary-color;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -18,7 +18,7 @@
   &:hover,
   &:focus,
   &.current {
-    color: var(--accent);
+    color: $accent-color;
   }
 }
 .nav__item:not(:last-child) {
@@ -28,7 +28,7 @@
   content: '';
   width: 100%;
   height: 4px;
-  background: var(--accent);
+  background: $accent-color;
   position: absolute;
   left: 0;
   bottom: -1px;

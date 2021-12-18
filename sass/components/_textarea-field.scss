@@ -6,7 +6,7 @@
   margin-bottom: 10px;
 }
 .textarea-field__input {
-  border: 1px solid var(--modal-input-border);
+  border: 1px solid rgba($primary-shade-color, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   outline: none;
@@ -19,13 +19,13 @@
   cursor: pointer;
 
   &:focus {
-    border-color: var(--accent);
+    border-color: $accent-color;
   }
   &::placeholder {
     font-weight: normal;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: var(--modal-placeholder-text);
+    color: rgba($primary-shade-2color, 0.5);
   }
 }

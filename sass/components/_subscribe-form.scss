@@ -5,7 +5,7 @@
   font-family: inherit;
   font-size: 16px;
   line-height: 1.25;
-  color: var(--footer-contacts);
+  color: rgba($secondary-color, 0.6);
   letter-spacing: 0.03em;
 
   width: 358px;
@@ -13,7 +13,7 @@
   padding-left: 16px;
   margin-right: 12px;
 
-  border: 1px solid var(--border-form);
+  border: 1px solid rgba($secondary-color, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

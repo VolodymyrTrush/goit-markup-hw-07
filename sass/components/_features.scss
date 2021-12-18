@@ -10,19 +10,19 @@
 .features-list__block {
   @extend %list-content-center;
   padding: 25px 0;
-  background-color: var(--background-section);
+  background-color: $secondary-shade-color;
 
   margin-bottom: 30px;
   border-radius: 4px;
 }
 .features-list__title {
-  color: var(--text-primary);
+  color: $primary-color;
   @include font(700, 14px, 1.15, 0.03em);
 
   margin-bottom: 10px;
 }
 .features-list__discription {
-  color: var(--text-secondary);
+  color: $primary-shade-2color;
   @include font(400, 14px, 1.7, 0.03em);
   font-size: 14px;
   line-height: 1.7;

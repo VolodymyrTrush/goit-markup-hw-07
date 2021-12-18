@@ -1,5 +1,5 @@
 .main-title {
-  color: var(--background-primary);
+  color: $secondary-color;
   @include font(900, 44px, 1.4, 0.09em);
   
   text-transform: uppercase;
@@ -7,7 +7,7 @@
 }
 
 .second-title {
-  color: var(--text-primary);
+  color: $primary-color;
   @include font(700, 36px, 1.2, 0.03em);
   
   text-align: center;
@@ -15,7 +15,7 @@
 }
 
 .third-title {
-  color: var(--background-primary);
+  color: $secondary-color;
   font-family: inherit;
   font-style: normal;
   @include font(400, 14px, 1.14, 0.03em);

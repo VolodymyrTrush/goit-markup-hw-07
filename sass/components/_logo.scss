@@ -5,11 +5,11 @@
   line-height: 1.2;
 }
 .logo__web {
-  color: var(--accent);
+  color: $accent-color;
 }
 .logo--primary {
-  color: var(--logo-primary);
+  color: $primary-color;
 }
 .logo--secondary {
-  color: var(--background-primary);
+  color: $secondary-color;
 }

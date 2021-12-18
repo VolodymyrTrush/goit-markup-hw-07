@@ -12,7 +12,7 @@
 .checkbox-field__icon {
   width: 16px;
   height: 15px;
-  border: 2px solid var(--text-primary);
+  border: 2px solid $primary-color;
   border-radius: 2px;
   fill: transparent;
 
@@ -24,7 +24,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-secondary);
+  color: $primary-shade-2color;
 }
 .checkbox-field__link {
   font-weight: normal;
@@ -32,15 +32,15 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: var(--accent);
+  color: $accent-color;
   text-decoration-skip-ink: none;
 }
 .checkbox-field__input {
   &:checked + .checkbox-field__label {
     .checkbox-field__icon {
-      background-color: var(--accent);
+      background-color: $accent-color;
       border: none;
-      fill: var(--background-primary);
+      fill: $secondary-color;
     }
   }
 }
