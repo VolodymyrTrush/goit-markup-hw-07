@@ -1,3 +1,21 @@
+.features-list, .doing-list, .team-list, .customers-list, .subscribe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features-list__block, .doing-list__block, .social-list, .social-list__link, .customers-list__link, .filter-list, .checkbox-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -67,24 +85,6 @@ a {
   pointer-events: none;
 }
 
-.features-list, .doing-list, .team-list, .customers-list, .subscribe-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.features-list__block, .doing-list__block, .social-list, .social-list__link, .customers-list__link, .filter-list, .checkbox-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -117,15 +117,15 @@ a {
           align-items: center;
 }
 
-.nav {
-  margin-left: 93px;
-}
-
 .header-section__contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+}
+
+.nav {
+  margin-left: 93px;
 }
 
 .nav__list {
@@ -645,12 +645,12 @@ a {
   display: flex;
 }
 
-.footer__social {
+.footer-section__social {
   margin-left: 70px;
   padding-top: 12px;
 }
 
-.footer__form {
+.footer-section__form {
   margin-left: auto;
   padding-top: 12px;
 }
